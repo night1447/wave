@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="img/favicon.ico">
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/swiper-bundle.min.css" />
+	<title>RitmStyle</title>
+</head>
+
+<body>
+	<div class="preloader">
+		<div class="middle">
+			<div class="bar bar1"></div>
+			<div class="bar bar2"></div>
+			<div class="bar bar3"></div>
+			<div class="bar bar4"></div>
+			<div class="bar bar5"></div>
+			<div class="bar bar6"></div>
+			<div class="bar bar7"></div>
+			<div class="bar bar8"></div>
+		</div>
+		<p class="preloader__title">Wave</p>
+	</div>
+	<div class="first-heading">
+		<div class="container">
+			<div class="first-heading__wrapper">
+				<div class="first-heading__logo"><img src="img/logo.svg" alt=""></div>
+				<div class="first-heading__navigation">
+					<div class="mobile-menu">
+						<button class="mobile-menu__button">
+							<span></span>
+							<span></span>
+							<span></span>
+						</button>
+					</div>
+					<ul class="main-menu">
+						<li class="main-menu__item"><a href="/wave" class="main-menu__link">Главная</a></li>
+						<li class="main-menu__item"><a href="#session" class="main-menu__link">Сеансы</a></li>
+						<li class="main-menu__item"><a href="#reviews" class="main-menu__link">Отзывы</a></li>
+						<li class="main-menu__item"><a href="#contacts" class="main-menu__link">Контакты</a></li>
+						<li class="main-menu__item"><a href="news.html" class="main-menu__link">Новости</a></li>
+						<li class="main-menu__item"><a href="myInfo.html" class="main-menu__link">Обо мне</a></li>
+						<li class="main-menu__item"><a href="blog.html" class="main-menu__link">Блог</a></li>
+					</ul>
+				</div>
+				<button class="first-heading__button jsModalOpen">Записаться на сеанс</button>
+			</div>
+		</div>
+	</div>
+	<div class="modal-form">
+		<div class="modal-form__block">
+			<button class="modal-form__close jsModalClose">
+				<span></span>
+				<span></span>
+			</button>
+			<div class="modal-container">
+				<h2 class="modal-form__title">
+					Запись на сеанс
+				</h2>
+				<p class="modal-form__text">
+				</p>
+				<form action="" method="#" class="modal-form__form">
+					<label for="fname" class="modal-form__label">
+						Имя*
+						<input type="text" name="fname" class="modal-form__input" required>
+					</label>
+					<label for="lname" class="modal-form__label">
+						Фамилия*
+						<input type="text" name="lname" class="modal-form__input" required>
+					</label>
+					<label for="" class="modal-form__label">
+						Email*
+						<input type="email" class="modal-form__input modal-form__email" required>
+					</label>
+					<button class="modal-form__button">Отправить</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="first-screen">
+		<div class="container">
+			<img src="img/first-screen.jpg" alt="" class="first-screen__image">
+			<div class="first-screen__wrapper">
+				<div class="first-screen__heading">
+					<img src="img/sheet-left.svg" alt="" class="first-screen__sheet">
+					<h3 class="first-screen__subtitle">Укрепление здоровья</h3>
+					<img src="img/sheet-right.svg" alt="" class="first-screen__sheet">
+				</div>
+				<h1 class="first-screen__title">Акватерапия
+					RitmStyle</h1>
+
+			</div>
+		</div>
+	</div>
+	<section class="session new-section" id="session">
+		<div class="container">
+			<div class="session__wrapper">
+				<div class="session__heading heading">
+					<img src="img/sheet-left.svg" alt="" class="session__sheet sheet">
+					<h2 class="session__title title">Сеансы RitmStyle</h2>
+					<img src="img/sheet-right.svg" alt="" class="session__sheet sheet">
+				</div>
+			</div>
+			<div class="session__list">
+				<div class="session__block">
+					<div class="session__item">
+						<img src="img/card-seans.png" alt="" class="session__item-image">
+						<h3 class="session__info">Стандартный RitmStyle</h3>
+					</div>
+				</div>
+				<div class="session__block">
+					<div class="session__item">
+						<img src="img/card-seans.png" alt="" class="session__item-image">
+						<h3 class="session__info">RitmStyle для беременных</h3>
+					</div>
+					<div class="session__item">
+						<img src="img/card-seans.png" alt="" class="session__item-image">
+						<h3 class="session__info">RitmStyle для пар</h3>
+					</div>
+
+				</div>
+				<div class="session__block">
+					<div class="session__item">
+						<img src="img/card-seans.png" alt="" class="session__item-image">
+						<h3 class="session__info">RitmStyle для беременных</h3>
+					</div>
+					<div class="session__item">
+						<img src="img/card-seans.png" alt="" class="session__item-image">
+						<h3 class="session__info">RitmStyle для пар</h3>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="reviews new-section" id="reviews">
+		<div class="container">
+			<div class="reviews__heading heading">
+				<img src="img/sheet-left.svg" alt="" class="reviews__sheet sheet">
+				<h2 class="reviews__title title">Отзывы</h2>
+				<img src="img/sheet-right.svg" alt="" class="reviews__sheet sheet">
+			</div>
+			<div class="swiper reviews__swiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="reviews__block">
+							<h4 class="reviews__subtitle">Кира Иванова</h4>
+							<p class="reviews__comment">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus diam risus morbi nulla dictum.
+								Urna mi orci gravida placerat amet, eu, aliquet facilisis aliquet. Dolor praesent nam ornare
+								fringilla enim nibh donec sit imperdiet. Amet, diam duis eu sit et. Volutpat vestibulum a lectus
+								sed blandit.
+								Venenatis urna mattis eu enim molestie iaculis et aliquet. Velit in pellentesque vestibulum
+								phasellus orci. Fermentum
+								sed phasellus aliquam nulla non aenean.
+							</p>
+							<p class="reviews__comment">
+								Quisque id nunc, mauris potenti a massa. Fermentum at elit, convallis leo dolor
+								aliquet id elementum. Ullamcorper sociis et cum bibendum in egestas. Diam, urna, sed tempus
+								mollis aliquam elit.
+								Facilisi nam nulla pulvinar mauris vel lacinia venenatis.
+							</p>
+
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="reviews__block">
+							<h4 class="reviews__subtitle">Александра Дмитриева</h4>
+							<p class="reviews__comment">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus diam risus morbi nulla dictum.
+								Urna mi orci gravida placerat amet, eu, aliquet facilisis aliquet. Dolor praesent nam ornare
+								fringilla enim nibh donec sit imperdiet. Amet, diam duis eu sit et. Volutpat vestibulum a lectus
+								sed blandit.
+								Venenatis urna mattis eu enim molestie iaculis et aliquet. Velit in pellentesque vestibulum
+								phasellus orci. Fermentum
+								sed phasellus aliquam nulla non aenean. Quisque id nunc, mauris potenti a massa. Fermentum at
+								elit, convallis leo dolor
+								aliquet id elementum. Ullamcorper sociis et cum bibendum in egestas. Diam, urna, sed tempus
+								mollis aliquam elit.
+								Facilisi nam nulla pulvinar mauris vel lacinia venenatis.
+							</p>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="reviews__block">
+							<h4 class="reviews__subtitle">Кира Иванова</h4>
+							<p class="reviews__comment">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus diam risus morbi nulla dictum.
+								Urna mi orci gravida placerat amet, eu, aliquet facilisis aliquet. Dolor praesent nam ornare
+								fringilla enim nibh donec sit imperdiet. Amet, diam duis eu sit et. Volutpat vestibulum a lectus
+								sed blandit.
+								Venenatis urna mattis eu enim molestie iaculis et aliquet. Velit in pellentesque vestibulum
+								phasellus orci. Fermentum
+								sed phasellus aliquam nulla non aenean. Quisque id nunc, mauris potenti a massa. Fermentum at
+								elit, convallis leo dolor
+								aliquet id elementum. Ullamcorper sociis et cum bibendum in egestas. Diam, urna, sed tempus
+								mollis aliquam elit.
+								Facilisi nam nulla pulvinar mauris vel lacinia venenatis.
+							</p>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="reviews__block">
+							<h4 class="reviews__subtitle">Яна Жернова</h4>
+							<p class="reviews__comment">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus diam risus morbi nulla dictum.
+								Urna mi orci gravida placerat amet, eu, aliquet facilisis aliquet. Dolor praesent nam ornare
+								fringilla enim nibh donec sit imperdiet. Amet, diam duis eu sit et. Volutpat vestibulum a lectus
+								sed blandit.
+								Venenatis urna mattis eu enim molestie iaculis et aliquet. Velit in pellentesque vestibulum
+								phasellus orci. Fermentum
+								sed phasellus aliquam nulla non aenean. Quisque id nunc, mauris potenti a massa. Fermentum at
+								elit, convallis leo dolor
+								aliquet id elementum. Ullamcorper sociis et cum bibendum in egestas. Diam, urna, sed tempus
+								mollis aliquam elit.
+								Facilisi nam nulla pulvinar mauris vel lacinia venenatis.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</div>
+
+	</section>
+	<section class="about new-section">
+		<div class="container container-min">
+			<div class="about__heading heading">
+				<img src="img/sheet-left.svg" alt="" class="about__sheet sheet">
+				<h2 class="about__title title">Об RitmStyle</h2>
+				<img src="img/sheet-right.svg" alt="" class="about__sheet sheet">
+			</div>
+			<div class="about__wrapper">
+				<div class="about__list">
+					<div class="about__item">
+						<div class="about__text-item">
+							<h3 class="about__subtitle">RitmStyle массаж </h3>
+							<p class="about__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in purus, sed
+								tellus eget mattis nibh quam. Eu ornare nunc, id est. Erat consectetur etiam a sit diam in
+								imperdiet amet. Diam nisl, ipsum suscipit amet. Eleifend amet habitasse proin quis adipiscing.
+								Nisl convallis mauris in consequat. Sit ac vitae posuere maecenas dictumst quam. Felis amet
+								diam, non augue massa. Egestas molestie lobortis rhoncus, elit nulla nisl. Habitant tortor at
+								tempor.</p>
+						</div>
+						<img src="img/about.jpg" alt="" class="about__image">
+					</div>
+					<div class="about__item">
+						<div class="about__text-item">
+							<h3 class="about__subtitle">RitmStyle гидротерапия </h3>
+							<p class="about__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in purus, sed
+								tellus eget mattis nibh quam. Eu ornare nunc, id est. Erat consectetur etiam a sit diam in
+								imperdiet amet. Diam nisl, ipsum suscipit amet. Eleifend amet habitasse proin quis adipiscing.
+								Nisl convallis mauris in consequat. Sit ac vitae posuere maecenas dictumst quam. Felis amet
+								diam, non augue massa. Egestas molestie lobortis rhoncus, elit nulla nisl. Habitant tortor at
+								tempor.</p>
+						</div>
+						<img src="img/about.jpg" alt="" class="about__image">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="price new-section">
+		<div class="container container-min">
+			<div class="price__heading heading">
+				<img src="img/sheet-left.svg" alt="" class="price__sheet sheet">
+				<h2 class="price__title title">Стоимость сеансов</h2>
+				<img src="img/sheet-right.svg" alt="" class="price__sheet sheet">
+			</div>
+			<div class="price__wrapper">
+				<ul class="price__list">
+					<li class="price__item">
+						<div class="price__item-wrapper">
+							<img src="img/sheet-left.svg" alt="" class="price__sheet sheet">
+							<p class="price__text">RitmStyle с погружением</p>
+						</div>
+						<p class="price__cost">1000р.</p>
+					</li>
+					<li class="price__item">
+						<div class="price__item-wrapper">
+							<img src="img/sheet-left.svg" alt="" class="price__sheet sheet">
+							<p class="price__text">Абонемент на RitmStyle</p>
+						</div>
+						<p class="price__cost">5500р.</p>
+					</li>
+					<li class="price__item">
+						<div class="price__item-wrapper">
+							<img src="img/sheet-left.svg" alt="" class="price__sheet sheet">
+							<p class="price__text">RitmStyle для пар</p>
+						</div>
+						<p class="price__cost">6000р.</p>
+					</li>
+					<li class="price__item">
+						<div class="price__item-wrapper">
+							<img src="img/sheet-left.svg" alt="" class="price__sheet sheet">
+							<p class="price__text">RitmStyle для беременных</p>
+						</div>
+						<p class="price__cost">13500р.</p>
+					</li>
+					<li class="price__item">
+						<div class="price__item-wrapper">
+							<img src="img/sheet-left.svg" alt="" class="price__sheet sheet">
+							<p class="price__text">RitmStyle + фотосессия</p>
+						</div>
+						<p class="price__cost">11500р.</p>
+					</li>
+				</ul>
+				<div class="price__inner-wrapper">
+					<img src="img/thanks.jpg" alt="" class="price__image">
+					<p class="price__info">Подарочный сертификат </p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="contacts new-section" id="contacts">
+		<div class="container">
+			<div class="contacts__wrapper">
+				<div class="contacts__map">
+					<script type="text/javascript" charset="utf-8" async
+						src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A7e13c3a2ebaed948778abba1071aed7f670bd3987c6d30da72b42b3258d0604e&amp;&amp;height=604&amp;lang=ru_RU&amp;scroll=true"></script>
+				</div>
+				<div class="contacts__info-cards">
+
+					<div class="contacts__info-card">
+						<h3 class="contacts__subtitle">Бассейн WorkClass</h3>
+						<div class="contacts__record">
+							<img src="img/adress.svg" alt="" class="contacts__record-image">
+							<p class="contacts__breadcrumbs">Невский 140</p>
+						</div>
+						<div class="contacts__record">
+							<img src="img/metro.svg" alt="" class="contacts__record-image">
+							<p class="contacts__breadcrumbs">м. Спасская</p>
+						</div>
+						<div class="contacts__record">
+							<img src="img/calendar.svg" alt="" class="contacts__record-image">
+							<p class="contacts__breadcrumbs">Запись по договоренности</p>
+						</div>
+
+						<button class="contacts__button jsModalOpen">Записаться на сеанс</button>
+					</div>
+
+					<div class="contacts__info-card">
+						<h3 class="contacts__subtitle">Бассейн "На Гороховой"</h3>
+						<div class="contacts__record">
+							<img src="img/adress.svg" alt="" class="contacts__record-image">
+							<p class="contacts__breadcrumbs">3-й проезд Иванова</p>
+						</div>
+						<div class="contacts__record">
+							<img src="img/metro.svg" alt="" class="contacts__record-image">
+							<p class="contacts__breadcrumbs">м. Крестовский остров</p>
+						</div>
+						<div class="contacts__record">
+							<img src="img/calendar.svg" alt="" class="contacts__record-image">
+							<p class="contacts__breadcrumbs">Запись по договоренности</p>
+						</div>
+
+						<button class="contacts__button jsModalOpen">Записаться на сеанс</button>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="main-footer">
+		<div class="container">
+			<div class="main-footer__wrapper">
+				<div class="main-footer__copyright">
+					© 2018-2022 nightmare
+				</div>
+				<div class="main-footer__info">
+					Created by fear-of-god
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<script src="js/swiper-bundle.min.js"></script>
+	<script src="js/swiper.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
